@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', serif;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+/* our-products */
+.our-products {
+    max-width: 1440px;
+    margin-inline: auto;
+    padding: 120px 28px 140px;
+}
+
+.organic {
+    color: rgb(126, 182, 147);
+    font-family: 'Yellowtail', cursive;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 64px;
+    letter-spacing: 0.36px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.our-products__heading-2 {
+    color: rgb(39, 76, 91);
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0.36px;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 42px;
+}
+
+.our-products__cards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.our-products__card {
+    width: 447px;
+    border-radius: 30px;
+    background: rgb(249, 248, 248);
+    padding: 30px 30px 35px;
+}
+
+.our-products__category {
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0.36px;
+
+    padding: 5px 20px;
+    border-radius: 8px;
+    background: rgb(39, 76, 91);
+}
+
+.our-products__img {
+    margin-bottom: 20px;
+}
+
+.our-products__title {
+    color: rgb(39, 76, 91);
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0.36px;
+    margin-bottom: 11px;
+}
+
+.divider {
+    width: 100%;
+    height: 1px;
+    background-color: rgb(212, 212, 212);
+    margin-bottom: 11px;
+}
+
+.pricing {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.pricing-1 {
+    color: rgb(184, 184, 184);
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.36px;
+    text-align: left;
+    text-decoration-line: line-through;
+}
+
+.pricing-2 {
+    color: rgb(39, 76, 91);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0.36px;
+}
+
+.starts {
+    margin-left: auto;
+}
+
+/* testimonial */
+.testimonial {
+    max-width: 1440px;
+    margin-inline: auto;
+    /* height: 1248px; */
+    background: url(./img/back.png);
+    padding: 130px 0 150px 0;
+}
+
+.testimonial__subheader {
+    color: rgb(126, 182, 147);
+    font-family: 'Yellowtail', cursive;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 64.8px;
+    letter-spacing: 0.36px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.testimonial__header {
+    color: rgb(39, 76, 91);
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 58.5px;
+    letter-spacing: 0.36px;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 60px;
+}
+
+.testimonial__img {
+    width: 115px;
+    height: 115px;
+    border-radius: 50%;
+    margin-inline: auto;
+    margin-bottom: 20px;
+}
+
+.testimonial__stars {
+    display: block;
+    width: 115px;
+    margin-inline: auto;
+    margin-bottom: 75px;
+}
+
+.testimonial__text {
+    color: rgb(82, 92, 96);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32.4px;
+    letter-spacing: 0.36px;
+    text-align: center;
+}
+
+.testimonial__text.last {
+    margin-bottom: 23px;
+}
+
+.testimonial__name {
+    color: rgb(39, 76, 91);
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 33.8px;
+    letter-spacing: 0.36px;
+    text-align: center;
+}
+
+.testimonial__identity {
+    color: rgb(82, 92, 96);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.36px;
+    text-align: center;
+    margin-bottom: 96px;
+}
+
+.testimonial__divider {
+    width: 966px;
+    height: 1px;
+    background-color: rgb(224, 224, 224);
+    margin-inline: auto;
+    margin-bottom: 100px;
+}
+
+.stats {
+    display: flex;
+    gap: 26px;
+    justify-content: center;
+}
+
+.stat {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 6px solid rgb(126, 182, 147);
+    border-radius: 200px;
+    background: rgb(241, 241, 241);
+}
+
+.inner-circle {
+    width: 240px;
+    height: 240px;
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-circle__numbers {
+    color: rgb(39, 76, 91);
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 54.6px;
+    letter-spacing: 0.36px;
+    text-align: center;
+}
+
+.inner-circle__stat {
+    color: rgb(39, 76, 91);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 32.4px;
+    letter-spacing: 0.36px;
+    text-align: center;
+}
